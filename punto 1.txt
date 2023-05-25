@@ -1,0 +1,72 @@
+
+1. ¿Qué es un algoritmo? Un algoritmo es un conjunto de pasos o instrucciones que se siguen para resolver un problema o realizar una tarea.
+2. ¿Cuál es el propósito de un diagrama de flujo? Un diagrama de flujo es una herramienta gráfica que permite representar un algoritmo de forma visual, utilizando símbolos y flechas que indican el orden y la dirección de las operaciones.
+3. ¿Qué representa un óvalo en un diagrama de flujo? Un óvalo representa el inicio o el fin de un algoritmo o de una parte del mismo.
+4. ¿Cuál es la forma básica de representar una acción en un diagrama de flujo? La forma básica de representar una acción en un diagrama de flujo es un rectángulo, que contiene una descripción breve de la operación que se realiza.
+5. ¿Qué representa un rombo en un diagrama de flujo? Un rombo representa una condición o una pregunta que se debe evaluar para decidir el siguiente paso del algoritmo. El rombo tiene dos o más salidas, cada una con una etiqueta que indica la respuesta posible a la condición o la pregunta.
+6. ¿Cuál es el símbolo utilizado para representar una entrada de datos en un diagrama de flujo? El símbolo utilizado para representar una entrada de datos en un diagrama de flujo es un paralelogramo, que contiene una descripción del dato que se recibe o se solicita al usuario.
+7. ¿Cuál es el símbolo utilizado para representar una salida de datos en un diagrama de flujo? El símbolo utilizado para representar una salida de datos en un diagrama de flujo es también un paralelogramo, que contiene una descripción del dato que se muestra o se entrega al usuario.
+8. Explica brevemente qué es un ciclo (bucle) en programación. Un ciclo (bucle) en programación es una estructura que permite repetir una o más acciones mientras se cumpla una condición o hasta que se alcance un límite.
+9. ¿Cuál es el ciclo más común utilizado en programación? El ciclo más común utilizado en programación es el ciclo for, que permite ejecutar una acción un número determinado de veces, controlando el valor de una variable que actúa como contador.
+10. ¿Cuál es la palabra clave utilizada para iniciar un ciclo en la mayoría de los lenguajes de programación? La palabra clave utilizada para iniciar un ciclo en la mayoría de los lenguajes de programación es for, seguida de los parámetros que definen el inicio, el fin y el incremento del contador.
+11. ¿Cuál es la palabra clave utilizada para terminar un ciclo en la mayoría de los lenguajes de programación?
+La palabra clave utilizada para terminar un ciclo en la mayoría de los lenguajes de programación es break. Esta palabra permite salir del ciclo cuando se cumple una condición determinada o cuando se desea interrumpir la repetición.
+12. ¿Cuál es la estructura básica de un ciclo (bucle) en un diagrama de flujo?
+La estructura básica de un ciclo (bucle) en un diagrama de flujo consta de tres partes: una condición inicial, una condición de repetición y una acción o conjunto de acciones que se realizan dentro del ciclo. La condición inicial establece el valor o estado inicial de la variable o expresión que controla el ciclo. La condición de repetición verifica si el ciclo debe continuar o no, según el valor o estado actual de la variable o expresión. La acción o conjunto de acciones son las instrucciones que se ejecutan en cada iteración del ciclo, y que pueden modificar el valor o estado de la variable o expresión que controla el ciclo.
+13. Explica brevemente qué es una condición en programación.
+Una condición en programación es una expresión lógica que puede evaluar a verdadero o falso, y que determina el flujo de ejecución del programa. Las condiciones se utilizan para controlar las estructuras de decisión (como las condiciones "si") y las estructuras de repetición (como los ciclos). Las condiciones pueden estar formadas por operadores relacionales (como <, >, ==, !=) y operadores lógicos (como &&, ||, !) que combinan valores, variables y otras expresiones.
+14. ¿Cuál es el símbolo utilizado para representar una condición en un diagrama de flujo?
+El símbolo utilizado para representar una condición en un diagrama de flujo es un rombo o diamante. Este símbolo tiene dos salidas: una para el caso verdadero y otra para el caso falso. Dentro del rombo se escribe la expresión lógica que representa la condición a evaluar.
+15. ¿Cuál es la palabra clave utilizada para una condición "si" en la mayoría de los lenguajes de programación?
+La palabra clave utilizada para una condición "si" en la mayoría de los lenguajes de programación es if. Esta palabra introduce una estructura de decisión que permite ejecutar una acción o conjunto de acciones si se cumple una condición determinada. La sintaxis general de una condición "si" es:
+
+if (condicion) {
+  accion(es)
+}
+
+16. ¿Cuál es la palabra clave utilizada para una condición "sino" en la mayoría de los lenguajes de programación?
+La palabra clave utilizada para una condición "sino" en la mayoría de los lenguajes de programación es else. Esta palabra complementa a la palabra if y permite ejecutar una acción o conjunto de acciones alternativas si no se cumple la condición determinada. La sintaxis general de una condición "sino" es:
+
+if (condicion) {
+  accion(es)
+}
+else {
+  accion(es) alternativas
+}
+
+17. ¿Cuál es la palabra clave utilizada para una condición "mientras" en la mayoría de los lenguajes de programación?
+La palabra clave utilizada para una condición "mientras" en la mayoría de los lenguajes de programación es while. Esta palabra introduce una estructura de repetición que permite ejecutar una acción o conjunto de acciones mientras se cumpla una condición determinada. La sintaxis general de una condición "mientras" es:
+
+while (condicion) {
+  accion(es)
+}
+
+18. ¿Cuál es la palabra clave utilizada para una condición "hacer mientras" en la mayoría de los lenguajes de programación?
+La palabra clave utilizada para una condición "hacer mientras" en la mayoría de los lenguajes de programación es do-while. Esta palabra introduce una estructura de repetición que permite ejecutar una acción o conjunto de acciones al menos una vez, y luego verificar si se cumple una condición determinada para continuar o no con el ciclo. La sintaxis general de una condición "hacer mientras" es:
+
+do {
+  accion(es)
+} while (condicion);
+
+19. ¿Cuál es la palabra clave utilizada para una condición "para" en la mayoría de los lenguajes de programación?
+La palabra clave utilizada para una condición "para" en la mayoría de los lenguajes de programación es for. Esta palabra introduce una estructura de repetición que permite ejecutar una acción o conjunto de acciones un número determinado o indeterminado
+de veces, según tres elementos: una variable o expresión inicial, una condición final y un incremento o decremento. La sintaxis general
+de una condición "para" es:
+
+for (inicial; final; incremento/decremento) {
+  accion(es)
+}
+
+20. ¿Cuál es la estructura básica de una condición "si" en un diagrama
+de flujo?
+La estructura básica de una condición "si" en un diagrama
+de flujo consta del símbolo del rombo con la expresión lógica que representa
+la condición a evaluar, y dos salidas: una para el caso verdadero y otra
+para el caso falso. Cada salida conecta con otro símbolo que representa
+la acción o conjunto de acciones a ejecutar según el resultado
+de la evaluación.
+21. La estructura básica de una condición "si-sino" en un diagrama de flujo es la siguiente: se dibuja un rombo con la condición a evaluar, y se trazan dos flechas que salen del rombo, una hacia abajo y otra hacia la derecha. La flecha hacia abajo indica el flujo que se sigue si la condición es verdadera, y la flecha hacia la derecha indica el flujo que se sigue si la condición es falsa.
+22. La estructura básica de una condición "mientras" en un diagrama de flujo es la siguiente: se dibuja un rombo con la condición a evaluar, y se traza una flecha que sale del rombo hacia abajo. Esta flecha indica el inicio de un bloque de instrucciones que se repite mientras la condición sea verdadera. Al final del bloque, se traza una flecha que vuelve al rombo para volver a evaluar la condición. Si la condición es falsa, se traza otra flecha que sale del rombo hacia la derecha, indicando el fin del ciclo.
+23. La estructura básica de una condición "hacer mientras" en un diagrama de flujo es la siguiente: se dibuja un rectángulo con la palabra "inicio", y se traza una flecha que sale del rectángulo hacia abajo. Esta flecha indica el inicio de un bloque de instrucciones que se ejecuta al menos una vez. Al final del bloque, se dibuja un rombo con la condición a evaluar, y se traza una flecha que sale del rombo hacia arriba. Esta flecha indica que se vuelve al inicio del bloque si la condición es verdadera. Si la condición es falsa, se traza otra flecha que sale del rombo hacia la derecha, indicando el fin del ciclo.
+24. La estructura básica de una condición "para" en un diagrama de flujo es la siguiente: se dibuja un rectángulo con tres partes: la primera parte indica el valor inicial de una variable de control, la segunda parte indica la condición que debe cumplir la variable para continuar el ciclo, y la tercera parte indica el incremento o decremento de la variable en cada iteración. Se traza una flecha que sale del rectángulo hacia abajo, indicando el inicio de un bloque de instrucciones que se repite mientras la condición sea verdadera. Al final del bloque, se traza una flecha que vuelve al rectángulo para actualizar el valor de la variable y volver a evaluar la condición. Si la condición es falsa, se traza otra flecha que sale del rectángulo hacia la derecha, indicando el fin del ciclo.
+25. La forma adecuada de representar un ciclo anidado en un diagrama de flujo es la siguiente: se dibuja el ciclo externo como se ha explicado anteriormente, y dentro del bloque de instrucciones del ciclo externo, se dibuja el ciclo interno como otro bloque de instrucciones. El ciclo interno puede ser de cualquier tipo (si-sino, mientras, hacer mientras o para), y debe tener su propia condición y su propia variable de control si es necesario. El ciclo interno se ejecuta tantas veces como lo indique su condición por cada iteración del ciclo externo.
